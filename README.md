@@ -1,48 +1,41 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# Progressive Web Application
 
-  # Text Editor (PWA)
-  
-  Link to deployed application => https://powerful-sierra-62510.herokuapp.com/
-  
-  ## Table of Contents
-- [Description](#description)
 
-- [Installation](#installation)
+An application that user can create or save database while offline.
 
-- [Usage](#usage)
+## Motivation
 
-- [Contributors](#contributors)
+Testing the webpack technologies.
 
-- [Testing](#testing)
+## Description
 
-- [License](#license)
+The purpose of this application is for user to saved their notes. User can be able to make this app set as homepage and save all their future events or history events. Unlimited notes can be saved and sepereated to left hand side corner, when user click on note then description will show on the right hand side . This app is deployed on [Heroku](https://note-taker-basic.herokuapp.com/) .
 
-- [Questions](#questions)
+## Table of Contents
 
-  ## Description
-  Created a simple text editor app that can function both online and offline. Needed to use a variety of data persistence options in order to ensure that data is not lost in any scenario. The application first looks to use the data in the indexedDB to populate the editor, then if it cannot access that it will use local storage. For use offline, this application can be downloaded to your desktop as an application. This application is helpful to developers because they can use this as a scratch pad for code snippets and coding ideas. User story is below. 
-  
-  AS A developer
-  
-  I WANT to create notes or code snippets with or without an internet connection
-  
-  SO THAT I can reliably retrieve them for later use
-  
-  ## Installation
-  to install the dependencies for this project, the user simply needs to clone the repository and then run the command "npm install". This will install all necessary dependencies since they are all included in the package.json. 
-  ## Usage
-  To use this app, simply open it up in the browser (with the deployed app link at the top of this readme) and then you are good to go. For offline use, the user can go to the link and hit the "install" button at the top left corner of the page. 
-  ## Contributors
-  No additional contributors on this project. 
-  ## Testing
-  No tests were required for this project. 
-  ## License
-  Click the license badge at the top of the ReadME to learn more about the license for this project. 
+* [Installation](#installation)
+* [Usage](#usage)
+* [Deployment](#deployment)
+ 
 
-  ## Questions
+## Usage 
+Inspect the page then to go `Application` to inspect manifest and indexedDB.
 
-  Please contact me with any questions using either of the avenues below. 
+## Table of Contents
 
-  Github URL: https://github.com/aungy5
+* [Installation](#installation)
+* [Usage](#usage)
+* [Deployment](#deployment)
 
-  Email: aungvary5@gmail.com
+
+## Installation
+ There are several ways to run this app. First, user can run app by using the Heroku link provided below in deployement section. Second, if user want to use this app locally then user needs to install all the dependencies and use " node sever.js " in the command line then access 
+ 'localhost:3001'. 
+ 
+
+
+## Deployment
+
+Repository link: https://github.com/JamesAHo/Progressive-Web-Applications-PWA-
+
+Heroku link : https://progressivewebappp.herokuapp.com/
